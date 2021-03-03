@@ -17,17 +17,12 @@ body {
 	overflow-x: hidden;
 }
 
-#logo {
-	width: 80px;
-	height: 54px;
-	margin-right: 22px;
-}
+.titu {font-size: 1.15rem;}
+	#logo {	width: 40px;height: 27px;margin-right: 22px;}
+	#logo2 {width: 41px;	height: 20px;	margin-right: 22px;}
 
-#logo2 {
-	width: 165px;
-	height: 54px;
-	margin-right: 22px;
-}
+
+
 
 .tm-white { color: #FFFFFF; }
 
@@ -662,12 +657,18 @@ figure.effect-bubba:hover p {
 	padding-right: 10px;
 }
 
+
+
+
+
 /*.tm-3-col-container {
 	margin-left: 0;
 	margin-right: 0;
 }*/
 
 /* Media Queries */
+
+
 
 @media only screen and (min-width: 400px) {
 	.cd-hero-slider h2 { font-size: 1.4em; }
@@ -677,6 +678,26 @@ figure.effect-bubba:hover p {
 	}*/
 
 	.grid-item figure figcaption { padding: 2em; }
+	
+
+	#logo {
+		width: 80px;
+		height: 54px;
+		margin-right: 22px;
+	}
+	
+	#logo2 {
+		width: 136px;
+		height: 47px;
+		margin-right: 22px;
+	}
+	
+	.titu
+		{
+			font-size: 2.5rem;
+		}
+
+	
 }
 
 @media only screen and (min-width: 480px) {
@@ -720,6 +741,9 @@ figure.effect-bubba:hover p {
 	}
 
 	.tm-copyright-text { margin-top: 0; }
+
+	
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -759,9 +783,16 @@ figure.effect-bubba:hover p {
 	/*.tm-3-col-container,*/
 	.cd-full-width .container-fluid.tm-page-width { max-width: 800px; }
 	/*.tm-3-col-textbox { max-width: 400px; }	*/
+
+
 }
 
 @media only screen and (min-width: 992px) {
+
+
+	
+
+
 	.tm-navbar-bg {
 		padding-left: 25px;
 		padding-right: 0;
@@ -828,6 +859,9 @@ figure.effect-bubba:hover p {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+
+
+
 	.cd-full-width .container-fluid.tm-page-width {
 		padding-left: 30px;
 		padding-right: 30px;
@@ -862,6 +896,9 @@ figure.effect-bubba:hover p {
 	.cd-hero-slider .cd-full-width { padding-top: 0; }
 	.cd-hero-slider .tm-text { font-size: 1em; }
 	.grid-item figure figcaption { padding: 2em; }
+
+	
+	
 }
 
 @media only screen and (min-width: 1333px) {
@@ -886,9 +923,13 @@ figure.effect-bubba:hover p {
 		padding-left: 0;
 		padding-right: 0;
 	}
+
+	
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.tm-2-col-textbox-2 { margin-right: 15px; }
 	#google-map { height: 520px; }
+
+
 }
