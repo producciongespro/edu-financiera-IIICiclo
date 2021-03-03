@@ -23,6 +23,12 @@ body {
 	margin-right: 22px;
 }
 
+#logo2 {
+	width: 165px;
+	height: 54px;
+	margin-right: 22px;
+}
+
 .tm-white { color: #FFFFFF; }
 
 ul { padding: 0; margin: 0; }
